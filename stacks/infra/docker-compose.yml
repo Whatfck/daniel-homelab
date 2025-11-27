@@ -1,0 +1,11 @@
+services:
+  dashy:
+    image: lissy93/dashy:latest
+    container_name: dashy
+    ports:
+      - "8080:8080"
+    volumes:
+      - ~/daniel-homelab-core/config/dashy/config:/app/public/conf
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
