@@ -54,6 +54,7 @@ Tailscale Serve permite exponer servicios con HTTPS usando subdominios. Crea los
 
 - Para Dashy: `tailscale serve --service=svc:dashy --https=443 http://localhost:8080` (accesible en https://dashy.tailbb818c.ts.net/)
 - Para Arcane: `tailscale serve --service=svc:arcane --https=443 http://localhost:3552` (accesible en https://arcane.tailbb818c.ts.net/)
+- Para Code Server: `tailscale serve --service=svc:code-server --https=443 https://localhost:8443` (accesible en https://code.tailbb818c.ts.net/)
 
 ## Notas
 

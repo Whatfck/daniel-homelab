@@ -12,6 +12,5 @@ services:
       - PGID=1000
       - TZ=America/Bogota
       - PASSWORD=yourpassword  # Cambia por una contraseña segura
+      - HTTPS=true
     restart: unless-stopped
-    networks:
-      - homelab-net
