@@ -3,15 +3,16 @@ services:
     image: traefik:v3.4
     container_name: traefik
     restart: unless-stopped
-    security_opt:
-      - no-new-privileges:true
+    privileged: true
     ports:
       - "80:80"
       - "443:443"
       - "8081:8080"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /var/run/docker.sock:/var/run/docker.sock
       - /home/daniel/daniel-homelab/config/infra/traefik:/etc/traefik
+    environment:
+      - DOCKER_API_VERSION=1.44
     command:
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
