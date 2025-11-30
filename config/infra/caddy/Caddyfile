@@ -2,11 +2,13 @@
 
 # Reverse proxy for arcane
 arcane.lab {
+    tls internal
     reverse_proxy arcane:3552
 }
 
 # Reverse proxy for dashy
 dashy.lab {
+    tls internal
     reverse_proxy dashy:8080
 }
 
