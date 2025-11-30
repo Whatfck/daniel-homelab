@@ -1,15 +1,18 @@
 # Caddyfile
 
-# Reverse proxy for arcane
-arcane.lab {
+lab {
     tls internal
-    reverse_proxy arcane:3552
-}
 
-# Reverse proxy for dashy
-dashy.lab {
-    tls internal
-    reverse_proxy dashy:8080
+    # Reverse proxy for arcane at /arcane/
+    route /arcane/* {
+        uri strip_prefix /arcane
+        reverse_proxy arcane:3552
+    }
+
+    # Reverse proxy for dashy at root
+    route /* {
+        reverse_proxy dashy:8080
+    }
 }
 
 # Default catch-all
