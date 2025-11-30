@@ -7,8 +7,8 @@ services:
       - "3552:3552"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /home/daniel/daniel-homelab-core/config/infra/arcane/data:/app/data
-      - /home/daniel/daniel-homelab-core/stacks:/app/data/projects
+      - /home/daniel/daniel-homelab/config/infra/arcane/data:/app/data
+      - /home/daniel/daniel-homelab/stacks:/app/data/projects
     environment:
       - PUID=1000
       - PGID=1000

@@ -7,9 +7,9 @@ services:
       - 8920:8920
     volumes:
       - /home/daniel/daniel-homelab/config/media/jellyfin:/config
-      - /home/daniel/daniel-homelab-core/data/media/movies:/media/movies
-      - /home/daniel/daniel-homelab-core/data/media/series:/media/series
-      - /home/daniel/daniel-homelab-core/data/media/music:/media/music
+      - /home/daniel/daniel-homelab/data/media/movies:/media/movies
+      - /home/daniel/daniel-homelab/data/media/series:/media/series
+      - /home/daniel/daniel-homelab/data/media/music:/media/music
     environment:
       - TZ=America/Bogota
     restart: unless-stopped

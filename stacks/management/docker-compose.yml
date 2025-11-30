@@ -10,7 +10,7 @@ services:
     ports:
       - 8090:8080
     volumes:
-      - /home/daniel/daniel-homelab-core:/data
-      - /home/daniel/daniel-homelab-core/config/management/filebrowser:/config
+      - /home/daniel/daniel-homelab:/data
+      - /home/daniel/daniel-homelab/config/management/filebrowser:/config
     restart: unless-stopped
 networks: {}
