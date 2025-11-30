@@ -15,8 +15,10 @@ Este proyecto configura un home server utilizando Docker Compose, con servicios 
     - `qbittorrent/`: Configuración de qBittorrent (cliente torrent).
     - `unpackerr/`: Configuración de Unpackerr (desempaquetador automático).
   - **`infra/`**: Servicios de infraestructura.
+    - `arcane/`: Configuración de Arcane.
     - `dashy/`: Configuración de Dashy (dashboard personalizable).
     - `filebrowser/`: Configuración de Filebrowser para infraestructura.
+    - `traefik/`: Configuración de Traefik (reverse proxy).
   - **`management/`**: Servicios de gestión.
     - `filebrowser/`: Configuración de Filebrowser para gestión de archivos.
   - **`media/`**: Configuraciones para servidor de medios.
@@ -34,7 +36,7 @@ Este proyecto configura un home server utilizando Docker Compose, con servicios 
 ## Servicios Incluidos
 
 - **Descargadores**: Aria2, qBittorrent y Unpackerr para automatizar descargas y desempaquetado.
-- **Infraestructura**: Dashy para dashboard, Filebrowser para navegación de archivos, y Arcane para gestión de stacks.
+- **Infraestructura**: Dashy para dashboard, Filebrowser para navegación de archivos, Arcane para gestión de stacks, y Traefik como reverse proxy.
 - **Gestión**: Filebrowser para administración de archivos.
 - **Medios**: Jellyfin para streaming de películas y series, con metadata extensa.
 

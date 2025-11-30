@@ -1,4 +1,24 @@
 services:
+  traefik:
+    image: traefik:v2.10
+    container_name: traefik
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /home/daniel/daniel-homelab/config/infra/traefik:/etc/traefik
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+    networks:
+      - default
+
   arcane:
     image: ghcr.io/getarcaneapp/arcane:latest
     container_name: arcane
@@ -16,6 +36,17 @@ services:
       - ENCRYPTION_KEY=fd2bafe48def8be127822c5da530b60dae71f81c652cca9d765bcb91c731fe06
       - JWT_SECRET=2a8b2f203969c2ca6308e4e73598b9f5205c0bda1d27b1b0e2d0659548cd27e7
       - DATABASE_URL=file:data/arcane.db?_pragma=journal_mode(WAL)&_pragma=busy_timeout(2500)&_txlock=immediate
+
+  dashy:
+    image: lissy93/dashy:latest
+    container_name: dashy
+    ports:
+      - 8080:8080
+    volumes:
+      - /home/daniel/daniel-homelab/config/infra/dashy/user-data:/app/user-data
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
 
 networks:
   default:
