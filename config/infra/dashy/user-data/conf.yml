@@ -2,7 +2,7 @@ pageInfo:
   title: Home Lab
 sections:
   - name: Multimedia
-    icon: fa fa-closed-captioning
+    icon: fa fa-film
     displayData:
       sortBy: default
       rows: 1
@@ -11,12 +11,12 @@ sections:
       hideForGuests: false
     items:
       - title: Jellyfin
-        description: Jellyfin
+        description: Servidor de medios para streaming de películas y series
         icon: sh-jellyfin
         url: http://lab:8096/
         id: 0_1035_jellyfin
   - name: Gestión
-    icon: fa fa-gears
+    icon: fa fa-cogs
     displayData:
       sortBy: default
       rows: 1
@@ -25,16 +25,17 @@ sections:
       hideForGuests: false
     items:
       - title: Arcane
-        description: Arcane
+        description: Interfaz web para gestión de stacks Docker
         icon: sh-Arcane
         url: https://arcane.tailbb818c.ts.net/
         id: 0_861_arcane
       - title: File Browser
-        description: File Browser
+        description: Explorador de archivos web con gestión de archivos
         icon: sh-File-Browser
         url: http://lab:8090/
         id: 1_861_filebrowser
-  - name: descarga
+  - name: Descargas
+    icon: fa fa-download
     displayData:
       sortBy: default
       rows: 1
@@ -43,15 +44,29 @@ sections:
       hideForGuests: false
     items:
       - title: qBittorrent
-        description: qBittorrent
+        description: Cliente torrent para descargas P2P
         icon: sh-qBittorrent
         url: http://lab:8085/
         id: 0_826_qbittorrent
       - title: AriaNg
-        description: AriaNg
-        icon: sh-AriaNg
+        description: Interfaz web para Aria2, gestor de descargas
+        icon: sh-aria2
         url: http://lab:6880/
         id: 1_826_ariang
+  - name: Desarrollo
+    icon: fa fa-code
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Code Server
+        description: VS Code en el navegador para desarrollo remoto
+        icon: sh-code-server
+        url: http://lab:8443/
+        id: 0_1000_code-server
 appConfig:
   theme: dashy-docs
   layout: vertical
