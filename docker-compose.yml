@@ -1,19 +1,21 @@
 services:
-  dockge:
-    image: louislam/dockge:latest
-    container_name: dockge
+  arcane:
+    image: ghcr.io/getarcaneapp/arcane:latest
+    container_name: arcane
     restart: unless-stopped
     ports:
-      - "5001:5001"
+      - "3552:3552"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      # Datos internos de Dockge
-      - ./config/infra/dockge/data:/app/data
-      # Directorio de Stacks (IMPORTANTE: ruta absoluta)
-      - /home/daniel/daniel-homelab-core/stacks:/opt/stacks
+      - /home/daniel/daniel-homelab-core/config/infra/arcane/data:/app/data
+      - /home/daniel/daniel-homelab-core/stacks:/app/data/projects
     environment:
-      # Indica a Dockge dónde encontrar los stacks
-      - DOCKGE_STACKS_DIR=/opt/stacks
+      - PUID=1000
+      - PGID=1000
+      - APP_URL=http://localhost:3552
+      - ENCRYPTION_KEY=fd2bafe48def8be127822c5da530b60dae71f81c652cca9d765bcb91c731fe06
+      - JWT_SECRET=2a8b2f203969c2ca6308e4e73598b9f5205c0bda1d27b1b0e2d0659548cd27e7
+      - DATABASE_URL=file:data/arcane.db?_pragma=journal_mode(WAL)&_pragma=busy_timeout(2500)&_txlock=immediate
 
 networks:
   default:

@@ -1,0 +1,315 @@
+{"Protocol":0,"Id":"5e06d65e9c48d5d2d61a96ce747cf860","Path":"/media/media/movies/Cowboy Bebop Knockin\u0027 on Heaven\u0027s Door (2001).mkv","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mkv","Size":2471756029,"Name":"Cowboy Bebop Knockin\u0027 on Heaven\u0027s Door (2001)","IsRemote":false,"ETag":"b01c12426fb996c6f2d49e7b2f8c231e","RunTimeTicks":69149440000,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"UseMostCompatibleTranscodingProfile":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"h264","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Rotation":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"Hdr10PlusPresentFlag":null,"VideoRange":1,"VideoRangeType":1,"VideoDoViTitle":null,"AudioSpatialFormat":0,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"LocalizedHearingImpaired":null,"DisplayTitle":"1080p H264 SDR","NalLengthSize":"4","IsInterlaced":false,"IsAVC":true,"ChannelLayout":null,"BitRate":2859610,"BitDepth":8,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Height":1080,"Width":1920,"AverageFrameRate":23.976025,"RealFrameRate":23.976025,"ReferenceFrameRate":23.976025,"Profile":"High","Type":1,"AspectRatio":"16:9","Index":0,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p","Level":40,"IsAnamorphic":false},{"Codec":"ac3","CodecTag":null,"Language":"spa","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Rotation":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"Hdr10PlusPresentFlag":null,"VideoRange":0,"VideoRangeType":0,"VideoDoViTitle":null,"AudioSpatialFormat":0,"LocalizedUndefined":null,"LocalizedDefault":"Por defecto","LocalizedForced":null,"LocalizedExternal":"Externo","LocalizedHearingImpaired":null,"DisplayTitle":"Spanish - Dolby Digital - 5.1 - Por defecto","NalLengthSize":null,"IsInterlaced":false,"IsAVC":false,"ChannelLayout":"5.1","BitRate":384000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":6,"SampleRate":44100,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"ReferenceFrameRate":null,"Profile":null,"Type":0,"AspectRatio":null,"Index":1,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"ac3","CodecTag":null,"Language":"jpn","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Rotation":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"Hdr10PlusPresentFlag":null,"VideoRange":0,"VideoRangeType":0,"VideoDoViTitle":null,"AudioSpatialFormat":0,"LocalizedUndefined":null,"LocalizedDefault":"Por defecto","LocalizedForced":null,"LocalizedExternal":"Externo","LocalizedHearingImpaired":null,"DisplayTitle":"Japanese - Dolby Digital - 5.1","NalLengthSize":null,"IsInterlaced":false,"IsAVC":false,"ChannelLayout":"5.1","BitRate":384000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":6,"SampleRate":44100,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"ReferenceFrameRate":null,"Profile":null,"Type":0,"AspectRatio":null,"Index":2,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"ac3","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Rotation":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"Hdr10PlusPresentFlag":null,"VideoRange":0,"VideoRangeType":0,"VideoDoViTitle":null,"AudioSpatialFormat":0,"LocalizedUndefined":null,"LocalizedDefault":"Por defecto","LocalizedForced":null,"LocalizedExternal":"Externo","LocalizedHearingImpaired":null,"DisplayTitle":"English - Dolby Digital - Stereo","NalLengthSize":null,"IsInterlaced":false,"IsAVC":false,"ChannelLayout":"stereo","BitRate":384000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":2,"SampleRate":48000,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"ReferenceFrameRate":null,"Profile":null,"Type":0,"AspectRatio":null,"Index":3,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"subrip","CodecTag":null,"Language":"spa","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Rotation":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"Hdr10PlusPresentFlag":null,"VideoRange":0,"VideoRangeType":0,"VideoDoViTitle":null,"AudioSpatialFormat":0,"LocalizedUndefined":"Sin definir","LocalizedDefault":"Por defecto","LocalizedForced":"Forzado","LocalizedExternal":"Externo","LocalizedHearingImpaired":"Discapacidad auditiva","DisplayTitle":"Spanish - Por defecto - SUBRIP","NalLengthSize":null,"IsInterlaced":false,"IsAVC":false,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Height":0,"Width":0,"AverageFrameRate":null,"RealFrameRate":null,"ReferenceFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":4,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"DVDSUB","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Rotation":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"Hdr10PlusPresentFlag":null,"VideoRange":0,"VideoRangeType":0,"VideoDoViTitle":null,"AudioSpatialFormat":0,"LocalizedUndefined":"Sin definir","LocalizedDefault":"Por defecto","LocalizedForced":"Forzado","LocalizedExternal":"Externo","LocalizedHearingImpaired":"Discapacidad auditiva","DisplayTitle":"English - DVDSUB","NalLengthSize":null,"IsInterlaced":false,"IsAVC":false,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Height":1080,"Width":1920,"AverageFrameRate":null,"RealFrameRate":null,"ReferenceFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":5,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null}],"MediaAttachments":[],"Formats":[],"Bitrate":4011610,"FallbackMaxStreamingBitrate":null,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":0,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null,"HasSegments":false}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -probesize 1G -ss 00:23:16.812 -noaccurate_seek -fflags +genpts  -i file:"/media/media/movies/Cowboy Bebop Knockin' on Heaven's Door (2001).mkv" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:2 -map -0:s -codec:v:0 copy -bsf:v h264_mp4toannexb -start_at_zero -codec:a:0 libfdk_aac -ac 2 -ab 256000 -af "volume=2" -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 6 -hls_segment_type fmp4 -hls_fmp4_init_filename "0f78adc5c7bf8e6500411dbc15904e56-1.mp4" -start_number 232 -hls_segment_filename "/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56%d.mp4" -hls_playlist_type vod -hls_list_size 0 -hls_segment_options movflags=+frag_discont -y "/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56.m3u8"
+
+
+ffmpeg version 7.1.2-Jellyfin Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14 (Debian 14.2.0-19)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto=auto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-opencl --enable-libdrm --enable-libxml2 --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libharfbuzz --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libsvtav1 --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --arch=amd64 --enable-libshaderc --enable-libplacebo --enable-vulkan --enable-vaapi --enable-amf --enable-libvpl --enable-ffnvcodec --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-nvdec --enable-nvenc
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'file:/media/media/movies/Cowboy Bebop Knockin' on Heaven's Door (2001).mkv':
+  Metadata:
+    encoder         : libebml v1.3.3 + libmatroska v1.4.4
+    creation_time   : 2019-01-23T19:40:05.000000Z
+  Duration: 01:55:14.94, start: 0.000000, bitrate: 2859 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+      Metadata:
+        BPS             : 1717192
+        BPS-eng         : 1717192
+        DURATION        : 01:55:11.405000000
+        DURATION-eng    : 01:55:11.405000000
+        NUMBER_OF_FRAMES: 165708
+        NUMBER_OF_FRAMES-eng: 165708
+        NUMBER_OF_BYTES : 1483526448
+        NUMBER_OF_BYTES-eng: 1483526448
+        _STATISTICS_WRITING_APP: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_APP-eng: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_DATE_UTC: 2019-01-23 19:40:05
+        _STATISTICS_WRITING_DATE_UTC-eng: 2019-01-23 19:40:05
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+        _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(spa): Audio: ac3, 44100 Hz, 5.1(side), fltp, 384 kb/s (default)
+      Metadata:
+        BPS             : 383999
+        BPS-eng         : 383999
+        DURATION        : 01:50:49.696000000
+        DURATION-eng    : 01:50:49.696000000
+        NUMBER_OF_FRAMES: 190919
+        NUMBER_OF_FRAMES-eng: 190919
+        NUMBER_OF_BYTES : 319185396
+        NUMBER_OF_BYTES-eng: 319185396
+        _STATISTICS_WRITING_APP: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_APP-eng: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_DATE_UTC: 2019-01-23 19:40:05
+        _STATISTICS_WRITING_DATE_UTC-eng: 2019-01-23 19:40:05
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+        _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(jpn): Audio: ac3, 44100 Hz, 5.1(side), fltp, 384 kb/s
+      Metadata:
+        BPS             : 384000
+        BPS-eng         : 384000
+        DURATION        : 01:55:11.477000000
+        DURATION-eng    : 01:55:11.477000000
+        NUMBER_OF_FRAMES: 198435
+        NUMBER_OF_FRAMES-eng: 198435
+        NUMBER_OF_BYTES : 331750922
+        NUMBER_OF_BYTES-eng: 331750922
+        _STATISTICS_WRITING_APP: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_APP-eng: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_DATE_UTC: 2019-01-23 19:40:05
+        _STATISTICS_WRITING_DATE_UTC-eng: 2019-01-23 19:40:05
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+        _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(eng): Audio: ac3, 48000 Hz, stereo, fltp, 384 kb/s
+      Metadata:
+        BPS             : 384000
+        BPS-eng         : 384000
+        DURATION        : 01:55:14.944000000
+        DURATION-eng    : 01:55:14.944000000
+        NUMBER_OF_FRAMES: 216092
+        NUMBER_OF_FRAMES-eng: 216092
+        NUMBER_OF_BYTES : 331917312
+        NUMBER_OF_BYTES-eng: 331917312
+        _STATISTICS_WRITING_APP: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_APP-eng: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_DATE_UTC: 2019-01-23 19:40:05
+        _STATISTICS_WRITING_DATE_UTC-eng: 2019-01-23 19:40:05
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+        _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(spa): Subtitle: subrip (srt) (default)
+      Metadata:
+        BPS             : 42
+        BPS-eng         : 42
+        DURATION        : 01:54:12.035000000
+        DURATION-eng    : 01:54:12.035000000
+        NUMBER_OF_FRAMES: 1050
+        NUMBER_OF_FRAMES-eng: 1050
+        NUMBER_OF_BYTES : 36083
+        NUMBER_OF_BYTES-eng: 36083
+        _STATISTICS_WRITING_APP: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_APP-eng: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_DATE_UTC: 2019-01-23 19:40:05
+        _STATISTICS_WRITING_DATE_UTC-eng: 2019-01-23 19:40:05
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+        _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5(eng): Subtitle: dvd_subtitle (dvdsub), 1920x1080
+      Metadata:
+        BPS             : 3790
+        BPS-eng         : 3790
+        DURATION        : 01:49:52.714000000
+        DURATION-eng    : 01:49:52.714000000
+        NUMBER_OF_FRAMES: 983
+        NUMBER_OF_FRAMES-eng: 983
+        NUMBER_OF_BYTES : 3123447
+        NUMBER_OF_BYTES-eng: 3123447
+        _STATISTICS_WRITING_APP: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_APP-eng: mkvmerge v8.9.0 ('Father Daughter') 32bit
+        _STATISTICS_WRITING_DATE_UTC: 2019-01-23 19:40:05
+        _STATISTICS_WRITING_DATE_UTC-eng: 2019-01-23 19:40:05
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+        _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:2 -> #0:1 (ac3 (native) -> aac (libfdk_aac))
+Press [q] to stop, [?] for help
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56-1.mp4' for writing
+Output #0, hls, to '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56.m3u8':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 23.98 fps, 23.98 tbr, 16k tbn (default)
+  Stream #0:1: Audio: aac, 44100 Hz, stereo, s16, 256 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 libfdk_aac
+      Side data:
+        cpb: bitrate max/min/avg: 256000/256000/256000 buffer size: 0 vbv_delay: N/A
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56232.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56233.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -13 / dts: 62299105 is out of range
+frame=  635 fps=0.0 q=-1.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56234.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56235.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56236.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56237.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56238.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -14 / dts: 63856629 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56239.mp4' for writing
+frame= 1323 fps=1323 q=-1.0 size=N/A time=00:00:28.63 bitrate=N/A speed=28.6x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56240.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -22 / dts: 64299983 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56241.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -22 / dts: 64741319 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56242.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56243.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -21 / dts: 65006554 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56244.mp4' for writing
+frame= 2035 fps=1356 q=-1.0 size=N/A time=00:00:58.49 bitrate=N/A speed=  39x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56245.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56246.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -14 / dts: 65577957 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56247.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56248.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56249.mp4' for writing
+frame= 2773 fps=1386 q=-1.0 size=N/A time=00:01:29.39 bitrate=N/A speed=44.7x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56250.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56251.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -13 / dts: 67138524 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56252.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -22 / dts: 67390423 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56253.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -5 / dts: 67709928 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56254.mp4' for writing
+frame= 3501 fps=1400 q=-1.0 size=N/A time=00:01:59.62 bitrate=N/A speed=47.8x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56255.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56256.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56257.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56258.mp4' for writing
+frame= 4200 fps=1399 q=-1.0 size=N/A time=00:02:28.67 bitrate=N/A speed=49.5x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56259.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -21 / dts: 69287897 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56260.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56261.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56262.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56263.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -21 / dts: 70318046 is out of range
+frame= 4980 fps=1422 q=-1.0 size=N/A time=00:03:01.25 bitrate=N/A speed=51.8x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56264.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56265.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56266.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56267.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56268.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56269.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56270.mp4' for writing
+frame= 5784 fps=1445 q=-1.0 size=N/A time=00:03:34.69 bitrate=N/A speed=53.6x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56271.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56272.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56273.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56274.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -15 / dts: 73020388 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56275.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56276.mp4' for writing
+frame= 6517 fps=1448 q=-1.0 size=N/A time=00:04:05.20 bitrate=N/A speed=54.5x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56277.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56278.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56279.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -14 / dts: 74649592 is out of range
+frame= 7149 fps=1422 q=-1.0 size=N/A time=00:04:31.83 bitrate=N/A speed=54.1x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56280.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56281.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56282.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56283.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56284.mp4' for writing
+frame= 7839 fps=1418 q=-1.0 size=N/A time=00:05:00.67 bitrate=N/A speed=54.4x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56285.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56286.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56287.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -14 / dts: 76968943 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56288.mp4' for writing
+frame= 8548 fps=1418 q=-1.0 size=N/A time=00:05:30.18 bitrate=N/A speed=54.8x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56289.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56290.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56291.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56292.mp4' for writing
+frame= 9243 fps=1416 q=-1.0 size=N/A time=00:05:59.11 bitrate=N/A speed=  55x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56293.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56294.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -13 / dts: 78909414 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56295.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56296.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -13 / dts: 79207398 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56297.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -22 / dts: 79426504 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56298.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56299.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -22 / dts: 79735760 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56300.mp4' for writing
+frame= 9977 fps=1419 q=-1.0 size=N/A time=00:06:29.79 bitrate=N/A speed=55.5x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56301.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56302.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -21 / dts: 80688100 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56303.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56304.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -14 / dts: 80992213 is out of range
+frame=10724 fps=1424 q=-1.0 size=N/A time=00:07:00.95 bitrate=N/A speed=55.9x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56305.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56306.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56307.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56308.mp4' for writing
+frame=11442 fps=1425 q=-1.0 size=N/A time=00:07:30.76 bitrate=N/A speed=56.1x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56309.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -14 / dts: 82709511 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56310.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56311.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56312.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56313.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56314.mp4' for writing
+frame=12178 fps=1428 q=-1.0 size=N/A time=00:08:01.46 bitrate=N/A speed=56.4x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56315.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56316.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -13 / dts: 84126682 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56317.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -14 / dts: 84337639 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56318.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56319.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56320.mp4' for writing
+frame=12927 fps=1431 q=-1.0 size=N/A time=00:08:32.65 bitrate=N/A speed=56.8x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56321.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -22 / dts: 85680087 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56322.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56323.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56324.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56325.mp4' for writing
+frame=13666 fps=1434 q=-1.0 size=N/A time=00:09:03.57 bitrate=N/A speed=  57x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56326.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56327.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56328.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56329.mp4' for writing
+frame=14420 fps=1437 q=-1.0 size=N/A time=00:09:35.13 bitrate=N/A speed=57.3x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56330.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56331.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -14 / dts: 88713170 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56332.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -5 / dts: 89154550 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56333.mp4' for writing
+frame=15221 fps=1445 q=-1.0 size=N/A time=00:10:08.34 bitrate=N/A speed=57.8x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56334.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56335.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -21 / dts: 89923539 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56336.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56337.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56338.mp4' for writing
+frame=15995 fps=1450 q=-1.0 size=N/A time=00:10:40.54 bitrate=N/A speed=58.1x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56339.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -13 / dts: 91078650 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56340.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -22 / dts: 91493322 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56341.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56342.mp4' for writing
+frame=16746 fps=1452 q=-1.0 size=N/A time=00:11:11.96 bitrate=N/A speed=58.3x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56343.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56344.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56345.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56346.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56347.mp4' for writing
+frame=17545 fps=1458 q=-1.0 size=N/A time=00:11:45.42 bitrate=N/A speed=58.6x    
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56348.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56349.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -6 / dts: 94472172 is out of range
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56350.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56351.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56352.mp4' for writing
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56353.mp4' for writing
+[mp4 @ 0x7a5e1150a000] Packet duration: -22 / dts: 95044563 is out of range
+
+
+[q] command received. Exiting.
+
+[hls @ 0x7a5e13ab5900] Opening '/cache/transcodes/0f78adc5c7bf8e6500411dbc15904e56354.mp4' for writing
+[out#0/hls @ 0x7a5e13a81580] video:142023KiB audio:23840KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=18284 fps=1457 q=-1.0 Lsize=N/A time=00:12:16.34 bitrate=N/A speed=58.7x    
