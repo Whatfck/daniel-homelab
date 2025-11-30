@@ -1,0 +1,34 @@
+pageInfo:
+  title: Home Lab
+sections:
+  - name: Multimedia
+    icon: fa fa-closed-captioning
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jellyfin
+        description: Jellyfin
+        icon: sh-jellyfin
+        url: http://lab:8096/
+        id: 0_1035_jellyfin
+  - name: Gestión
+    icon: fa fa-gears
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Arcane
+        description: Arcane
+        icon: sh-Arcane
+        id: 0_861_arcane
+appConfig:
+  theme: dashy-docs
+  layout: vertical
+  iconSize: large

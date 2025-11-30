@@ -1,0 +1,201 @@
+(N) 2025-11-28T15:04:08 - qBittorrent v5.1.4 started. Process ID: 150
+(N) 2025-11-28T15:04:08 - Using config directory: /config/qBittorrent
+(N) 2025-11-28T15:04:08 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-11-28T15:04:08 - Peer ID: "-qB5140-"
+(I) 2025-11-28T15:04:08 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-11-28T15:04:08 - Distributed Hash Table (DHT) support: ON
+(I) 2025-11-28T15:04:08 - Local Peer Discovery support: ON
+(I) 2025-11-28T15:04:08 - Peer Exchange (PeX) support: ON
+(I) 2025-11-28T15:04:08 - Anonymous mode: OFF
+(I) 2025-11-28T15:04:08 - Encryption support: ON
+(I) 2025-11-28T15:04:08 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-11-28T15:04:08 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-11-28T15:04:08 - Successfully listening on IP. IP: "172.21.0.2". Port: "TCP/6881"
+(I) 2025-11-28T15:04:08 - Successfully listening on IP. IP: "172.21.0.2". Port: "UTP/6881"
+(I) 2025-11-28T15:04:08 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-11-28T15:04:08 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-11-28T15:04:08 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-11-28T15:04:08 - Using built-in WebUI.
+(W) 2025-11-28T15:04:08 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-11-28T15:04:08 - WebUI: Now listening on IP: *, port: 8085
+(I) 2025-11-28T15:04:09 - Detected external IP. IP: "186.99.189.91"
+(I) 2025-11-28T15:04:10 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Oct 31 21:28:18 2025.
+(I) 2025-11-28T15:04:10 - Successfully updated IP geolocation database.
+(N) 2025-11-28T15:06:40 - WebAPI login success. IP: ::ffff:100.73.189.122
+(N) 2025-11-28T15:07:03 - La traducción de WebUI para la configuración regional seleccionada (es) se cargó correctamente.
+(N) 2025-11-28T15:17:23 - terminación de qBittorrent iniciada
+(N) 2025-11-28T15:17:23 - Se ha completado el guardado de los datos del currículum.
+(N) 2025-11-28T15:17:23 - La sesión de BitTorrent finalizó exitosamente.
+(N) 2025-11-28T15:17:23 - qBittorrent ahora está listo para salir
+(N) 2025-11-28T15:17:27 - Se inició qBittorrent v5.1.4. ID de proceso: 148
+(N) 2025-11-28T15:17:27 - Usando el directorio de configuración: /config/qBittorrent
+(N) 2025-11-28T15:17:27 - Intentando escuchar en la siguiente lista de direcciones IP: "0.0.0.0:6881,[::]:6881"
+(I) 2025-11-28T15:17:27 - ID de par: "-qB5140-"
+(I) 2025-11-28T15:17:27 - Agente de Usuario HTTP: "qBittorrent/5.1.4"
+(I) 2025-11-28T15:17:27 - Soporte de tabla hash distribuida (DHT): ON
+(I) 2025-11-28T15:17:27 - Soporte de deteccion local de pares: ON
+(I) 2025-11-28T15:17:27 - Soporte con intercambio entre pares (PeX): ON
+(I) 2025-11-28T15:17:27 - Modo Anónimo: OFF
+(I) 2025-11-28T15:17:27 - Soporte de cifrado: ON
+(I) 2025-11-28T15:17:27 - Base de datos de geolocalización IP cargada. Tipo: DBIP-Country-Lite. Hora de compilación: Fri Oct 31 21:28:18 2025.
+(N) 2025-11-28T15:17:27 - Usando WebUI incorporada.
+(N) 2025-11-28T15:17:27 - La traducción de WebUI para la configuración regional seleccionada (es) se cargó correctamente.
+(N) 2025-11-28T15:17:27 - WebUI: Esta escuchando en IP: *, puerto: 8085
+(I) 2025-11-28T15:17:27 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "TCP/6881"
+(I) 2025-11-28T15:17:27 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "UTP/6881"
+(I) 2025-11-28T15:17:27 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "TCP/6881"
+(I) 2025-11-28T15:17:27 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "UTP/6881"
+(I) 2025-11-28T15:17:27 - Escuchando con éxito en IP. IP: "::1". Puerto: "TCP/6881"
+(I) 2025-11-28T15:17:27 - Escuchando con éxito en IP. IP: "::1". Puerto: "UTP/6881"
+(I) 2025-11-28T15:17:28 - IP externa detectada. IP: "186.99.189.91"
+(N) 2025-11-28T15:17:31 - terminación de qBittorrent iniciada
+(N) 2025-11-28T15:17:31 - Se ha completado el guardado de los datos del currículum.
+(N) 2025-11-28T15:17:31 - La sesión de BitTorrent finalizó exitosamente.
+(N) 2025-11-28T15:17:31 - qBittorrent ahora está listo para salir
+(N) 2025-11-28T15:17:36 - Se inició qBittorrent v5.1.4. ID de proceso: 145
+(N) 2025-11-28T15:17:36 - Usando el directorio de configuración: /config/qBittorrent
+(N) 2025-11-28T15:17:36 - Intentando escuchar en la siguiente lista de direcciones IP: "0.0.0.0:6881,[::]:6881"
+(I) 2025-11-28T15:17:36 - ID de par: "-qB5140-"
+(I) 2025-11-28T15:17:36 - Agente de Usuario HTTP: "qBittorrent/5.1.4"
+(I) 2025-11-28T15:17:36 - Soporte de tabla hash distribuida (DHT): ON
+(I) 2025-11-28T15:17:36 - Soporte de deteccion local de pares: ON
+(I) 2025-11-28T15:17:36 - Soporte con intercambio entre pares (PeX): ON
+(I) 2025-11-28T15:17:36 - Modo Anónimo: OFF
+(I) 2025-11-28T15:17:36 - Soporte de cifrado: ON
+(I) 2025-11-28T15:17:36 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "TCP/6881"
+(I) 2025-11-28T15:17:36 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "UTP/6881"
+(I) 2025-11-28T15:17:36 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "TCP/6881"
+(I) 2025-11-28T15:17:36 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "UTP/6881"
+(I) 2025-11-28T15:17:36 - Escuchando con éxito en IP. IP: "::1". Puerto: "TCP/6881"
+(I) 2025-11-28T15:17:36 - Escuchando con éxito en IP. IP: "::1". Puerto: "UTP/6881"
+(I) 2025-11-28T15:17:36 - Base de datos de geolocalización IP cargada. Tipo: DBIP-Country-Lite. Hora de compilación: Fri Oct 31 21:28:18 2025.
+(N) 2025-11-28T15:17:36 - Usando WebUI incorporada.
+(N) 2025-11-28T15:17:36 - La traducción de WebUI para la configuración regional seleccionada (es) se cargó correctamente.
+(N) 2025-11-28T15:17:36 - WebUI: Esta escuchando en IP: *, puerto: 8085
+(I) 2025-11-28T15:17:36 - IP externa detectada. IP: "186.99.189.91"
+(N) 2025-11-28T15:19:19 - terminación de qBittorrent iniciada
+(N) 2025-11-28T15:19:19 - Se ha completado el guardado de los datos del currículum.
+(N) 2025-11-28T15:19:19 - La sesión de BitTorrent finalizó exitosamente.
+(N) 2025-11-28T15:19:19 - qBittorrent ahora está listo para salir
+(N) 2025-11-28T15:20:17 - Se inició qBittorrent v5.1.4. ID de proceso: 145
+(N) 2025-11-28T15:20:17 - Usando el directorio de configuración: /config/qBittorrent
+(N) 2025-11-28T15:20:17 - Intentando escuchar en la siguiente lista de direcciones IP: "0.0.0.0:6881,[::]:6881"
+(I) 2025-11-28T15:20:17 - ID de par: "-qB5140-"
+(I) 2025-11-28T15:20:17 - Agente de Usuario HTTP: "qBittorrent/5.1.4"
+(I) 2025-11-28T15:20:17 - Soporte de tabla hash distribuida (DHT): ON
+(I) 2025-11-28T15:20:17 - Soporte de deteccion local de pares: ON
+(I) 2025-11-28T15:20:17 - Soporte con intercambio entre pares (PeX): ON
+(I) 2025-11-28T15:20:17 - Modo Anónimo: OFF
+(I) 2025-11-28T15:20:17 - Soporte de cifrado: ON
+(I) 2025-11-28T15:20:17 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "TCP/6881"
+(I) 2025-11-28T15:20:17 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "UTP/6881"
+(I) 2025-11-28T15:20:17 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "TCP/6881"
+(I) 2025-11-28T15:20:17 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "UTP/6881"
+(I) 2025-11-28T15:20:17 - Escuchando con éxito en IP. IP: "::1". Puerto: "TCP/6881"
+(I) 2025-11-28T15:20:17 - Escuchando con éxito en IP. IP: "::1". Puerto: "UTP/6881"
+(I) 2025-11-28T15:20:17 - Base de datos de geolocalización IP cargada. Tipo: DBIP-Country-Lite. Hora de compilación: Fri Oct 31 21:28:18 2025.
+(N) 2025-11-28T15:20:17 - Usando WebUI incorporada.
+(N) 2025-11-28T15:20:17 - La traducción de WebUI para la configuración regional seleccionada (es) se cargó correctamente.
+(N) 2025-11-28T15:20:17 - WebUI: Esta escuchando en IP: *, puerto: 8085
+(I) 2025-11-28T15:20:18 - IP externa detectada. IP: "186.99.189.91"
+(N) 2025-11-28T15:31:45 - terminación de qBittorrent iniciada
+(N) 2025-11-28T15:31:45 - Se ha completado el guardado de los datos del currículum.
+(N) 2025-11-28T15:31:45 - La sesión de BitTorrent finalizó exitosamente.
+(N) 2025-11-28T15:31:45 - qBittorrent ahora está listo para salir
+(N) 2025-11-28T15:35:55 - Se inició qBittorrent v5.1.4. ID de proceso: 147
+(N) 2025-11-28T15:35:55 - Usando el directorio de configuración: /config/qBittorrent
+(N) 2025-11-28T15:35:55 - Intentando escuchar en la siguiente lista de direcciones IP: "0.0.0.0:6881,[::]:6881"
+(I) 2025-11-28T15:35:55 - ID de par: "-qB5140-"
+(I) 2025-11-28T15:35:55 - Agente de Usuario HTTP: "qBittorrent/5.1.4"
+(I) 2025-11-28T15:35:55 - Soporte de tabla hash distribuida (DHT): ON
+(I) 2025-11-28T15:35:55 - Soporte de deteccion local de pares: ON
+(I) 2025-11-28T15:35:55 - Soporte con intercambio entre pares (PeX): ON
+(I) 2025-11-28T15:35:55 - Modo Anónimo: OFF
+(I) 2025-11-28T15:35:55 - Soporte de cifrado: ON
+(I) 2025-11-28T15:35:55 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "TCP/6881"
+(I) 2025-11-28T15:35:55 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "UTP/6881"
+(I) 2025-11-28T15:35:55 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "TCP/6881"
+(I) 2025-11-28T15:35:55 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "UTP/6881"
+(I) 2025-11-28T15:35:55 - Escuchando con éxito en IP. IP: "::1". Puerto: "TCP/6881"
+(I) 2025-11-28T15:35:55 - Escuchando con éxito en IP. IP: "::1". Puerto: "UTP/6881"
+(I) 2025-11-28T15:35:55 - Base de datos de geolocalización IP cargada. Tipo: DBIP-Country-Lite. Hora de compilación: Fri Oct 31 21:28:18 2025.
+(N) 2025-11-28T15:35:55 - Usando WebUI incorporada.
+(N) 2025-11-28T15:35:55 - La traducción de WebUI para la configuración regional seleccionada (es) se cargó correctamente.
+(N) 2025-11-28T15:35:55 - WebUI: Esta escuchando en IP: *, puerto: 8085
+(I) 2025-11-28T15:35:55 - IP externa detectada. IP: "186.99.189.91"
+(N) 2025-11-28T16:23:58 - terminación de qBittorrent iniciada
+(N) 2025-11-28T16:23:58 - Se ha completado el guardado de los datos del currículum.
+(N) 2025-11-28T16:23:58 - La sesión de BitTorrent finalizó exitosamente.
+(N) 2025-11-28T16:23:58 - qBittorrent ahora está listo para salir
+(N) 2025-11-28T16:24:04 - Se inició qBittorrent v5.1.4. ID de proceso: 144
+(N) 2025-11-28T16:24:04 - Usando el directorio de configuración: /config/qBittorrent
+(N) 2025-11-28T16:24:04 - Intentando escuchar en la siguiente lista de direcciones IP: "0.0.0.0:6881,[::]:6881"
+(I) 2025-11-28T16:24:04 - ID de par: "-qB5140-"
+(I) 2025-11-28T16:24:04 - Agente de Usuario HTTP: "qBittorrent/5.1.4"
+(I) 2025-11-28T16:24:04 - Soporte de tabla hash distribuida (DHT): ON
+(I) 2025-11-28T16:24:04 - Soporte de deteccion local de pares: ON
+(I) 2025-11-28T16:24:04 - Soporte con intercambio entre pares (PeX): ON
+(I) 2025-11-28T16:24:04 - Modo Anónimo: OFF
+(I) 2025-11-28T16:24:04 - Soporte de cifrado: ON
+(I) 2025-11-28T16:24:04 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "TCP/6881"
+(I) 2025-11-28T16:24:04 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "UTP/6881"
+(I) 2025-11-28T16:24:04 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "TCP/6881"
+(I) 2025-11-28T16:24:04 - Escuchando con éxito en IP. IP: "172.21.0.2". Puerto: "UTP/6881"
+(I) 2025-11-28T16:24:04 - Escuchando con éxito en IP. IP: "::1". Puerto: "TCP/6881"
+(I) 2025-11-28T16:24:04 - Escuchando con éxito en IP. IP: "::1". Puerto: "UTP/6881"
+(I) 2025-11-28T16:24:04 - Base de datos de geolocalización IP cargada. Tipo: DBIP-Country-Lite. Hora de compilación: Fri Oct 31 21:28:18 2025.
+(N) 2025-11-28T16:24:04 - Usando WebUI incorporada.
+(N) 2025-11-28T16:24:04 - La traducción de WebUI para la configuración regional seleccionada (es) se cargó correctamente.
+(N) 2025-11-28T16:24:04 - WebUI: Esta escuchando en IP: *, puerto: 8085
+(I) 2025-11-28T16:24:05 - IP externa detectada. IP: "186.99.189.91"
+(N) 2025-11-28T17:32:38 - terminación de qBittorrent iniciada
+(N) 2025-11-28T17:32:39 - Se ha completado el guardado de los datos del currículum.
+(N) 2025-11-28T17:32:39 - La sesión de BitTorrent finalizó exitosamente.
+(N) 2025-11-28T17:32:39 - qBittorrent ahora está listo para salir
+(N) 2025-11-28T18:09:12 - Se inició qBittorrent v5.1.4. ID de proceso: 145
+(N) 2025-11-28T18:09:12 - Usando el directorio de configuración: /config/qBittorrent
+(N) 2025-11-28T18:09:12 - Intentando escuchar en la siguiente lista de direcciones IP: "0.0.0.0:6881,[::]:6881"
+(I) 2025-11-28T18:09:12 - ID de par: "-qB5140-"
+(I) 2025-11-28T18:09:12 - Agente de Usuario HTTP: "qBittorrent/5.1.4"
+(I) 2025-11-28T18:09:12 - Soporte de tabla hash distribuida (DHT): ON
+(I) 2025-11-28T18:09:12 - Soporte de deteccion local de pares: ON
+(I) 2025-11-28T18:09:12 - Soporte con intercambio entre pares (PeX): ON
+(I) 2025-11-28T18:09:12 - Modo Anónimo: OFF
+(I) 2025-11-28T18:09:12 - Soporte de cifrado: ON
+(I) 2025-11-28T18:09:13 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "TCP/6881"
+(I) 2025-11-28T18:09:13 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "UTP/6881"
+(I) 2025-11-28T18:09:13 - Escuchando con éxito en IP. IP: "172.21.0.5". Puerto: "TCP/6881"
+(I) 2025-11-28T18:09:13 - Escuchando con éxito en IP. IP: "172.21.0.5". Puerto: "UTP/6881"
+(I) 2025-11-28T18:09:13 - Escuchando con éxito en IP. IP: "::1". Puerto: "TCP/6881"
+(I) 2025-11-28T18:09:13 - Escuchando con éxito en IP. IP: "::1". Puerto: "UTP/6881"
+(I) 2025-11-28T18:09:13 - Base de datos de geolocalización IP cargada. Tipo: DBIP-Country-Lite. Hora de compilación: Fri Oct 31 21:28:18 2025.
+(N) 2025-11-28T18:09:14 - Usando WebUI incorporada.
+(N) 2025-11-28T18:09:14 - La traducción de WebUI para la configuración regional seleccionada (es) se cargó correctamente.
+(N) 2025-11-28T18:09:14 - WebUI: Esta escuchando en IP: *, puerto: 8085
+(I) 2025-11-28T18:09:14 - IP externa detectada. IP: "186.99.189.91"
+(N) 2025-11-28T23:04:34 - Se detectó un evento de reactivación del sistema. Reanunciar a todos los rastreadores...
+(N) 2025-11-30T00:45:44 - terminación de qBittorrent iniciada
+(N) 2025-11-30T00:45:44 - Se ha completado el guardado de los datos del currículum.
+(N) 2025-11-30T00:45:44 - La sesión de BitTorrent finalizó exitosamente.
+(N) 2025-11-30T00:45:45 - qBittorrent ahora está listo para salir
+(N) 2025-11-30T07:49:54 - Se inició qBittorrent v5.1.4. ID de proceso: 146
+(N) 2025-11-30T07:49:55 - Usando el directorio de configuración: /config/qBittorrent
+(N) 2025-11-30T07:49:55 - Intentando escuchar en la siguiente lista de direcciones IP: "0.0.0.0:6881,[::]:6881"
+(I) 2025-11-30T07:49:55 - ID de par: "-qB5140-"
+(I) 2025-11-30T07:49:55 - Agente de Usuario HTTP: "qBittorrent/5.1.4"
+(I) 2025-11-30T07:49:55 - Soporte de tabla hash distribuida (DHT): ON
+(I) 2025-11-30T07:49:55 - Soporte de deteccion local de pares: ON
+(I) 2025-11-30T07:49:55 - Soporte con intercambio entre pares (PeX): ON
+(I) 2025-11-30T07:49:55 - Modo Anónimo: OFF
+(I) 2025-11-30T07:49:55 - Soporte de cifrado: ON
+(I) 2025-11-30T07:49:55 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "TCP/6881"
+(I) 2025-11-30T07:49:55 - Escuchando con éxito en IP. IP: "127.0.0.1". Puerto: "UTP/6881"
+(I) 2025-11-30T07:49:55 - Escuchando con éxito en IP. IP: "172.21.0.5". Puerto: "TCP/6881"
+(I) 2025-11-30T07:49:55 - Escuchando con éxito en IP. IP: "172.21.0.5". Puerto: "UTP/6881"
+(I) 2025-11-30T07:49:55 - Escuchando con éxito en IP. IP: "::1". Puerto: "TCP/6881"
+(I) 2025-11-30T07:49:55 - Escuchando con éxito en IP. IP: "::1". Puerto: "UTP/6881"
+(I) 2025-11-30T07:49:55 - Base de datos de geolocalización IP cargada. Tipo: DBIP-Country-Lite. Hora de compilación: Fri Oct 31 21:28:18 2025.
+(N) 2025-11-30T07:49:55 - Usando WebUI incorporada.
+(N) 2025-11-30T07:49:55 - La traducción de WebUI para la configuración regional seleccionada (es) se cargó correctamente.
+(N) 2025-11-30T07:49:55 - WebUI: Esta escuchando en IP: *, puerto: 8085
+(I) 2025-11-30T07:49:56 - IP externa detectada. IP: "186.99.189.91"

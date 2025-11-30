@@ -1,8 +1,0 @@
-# Ignorar carpetas y archivos generados automáticamente
-config/
-logs/
-tmp/
-cache/
-*.db
-*.sqlite
-*.log
