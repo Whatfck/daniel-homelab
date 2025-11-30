@@ -1,0 +1,53 @@
+pageInfo:
+  title: Home Lab
+sections:
+  - name: Multimedia
+    icon: fa fa-closed-captioning
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jellyfin
+        description: Jellyfin
+        icon: sh-jellyfin
+        url: http://lab:8096/
+        id: 0_1035_jellyfin
+  - name: Gestión
+    icon: fa fa-gears
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Arcane
+        description: Arcane
+        icon: sh-Arcane
+        url: http://lab:3552/
+        id: 0_861_arcane
+      - title: File Browser
+        description: File Browser
+        icon: sh-File-Browser
+        url: http://lab:8090/
+        id: 1_861_filebrowser
+  - name: descarga
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: qBittorrent
+        description: qBittorrent
+        icon: sh-qBittorrent
+        url: http://lab:8085/
+        id: 0_826_qbittorrent
+appConfig:
+  theme: dashy-docs
+  layout: vertical
+  iconSize: large
