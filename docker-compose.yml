@@ -24,7 +24,7 @@ services:
       - default
 
   arcane:
-    image: ghcr.io/getarcaneapp/arcane:latest
+    image: ghcr.io/ofkm/arcane:latest
     container_name: arcane
     restart: unless-stopped
     ports:
