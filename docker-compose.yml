@@ -3,17 +3,14 @@ services:
     image: traefik:v3.4
     container_name: traefik
     restart: unless-stopped
-    privileged: true
-    user: root
+    security_opt:
+      - no-new-privileges:true
     ports:
       - "80:80"
       - "443:443"
       - "8081:8080"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /home/daniel/daniel-homelab/config/infra/traefik:/etc/traefik
-    environment:
-      - DOCKER_API_VERSION=1.44
+      - /var/run/docker.sock:/var/run/docker.sock:ro
     command:
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
@@ -43,6 +40,10 @@ services:
       - ENCRYPTION_KEY=fd2bafe48def8be127822c5da530b60dae71f81c652cca9d765bcb91c731fe06
       - JWT_SECRET=2a8b2f203969c2ca6308e4e73598b9f5205c0bda1d27b1b0e2d0659548cd27e7
       - DATABASE_URL=file:data/arcane.db?_pragma=journal_mode(WAL)&_pragma=busy_timeout(2500)&_txlock=immediate
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.arcane.rule=Host(`arcane.lab`)"
+      - "traefik.http.routers.arcane.entrypoints=web"
 
   dashy:
     image: lissy93/dashy:latest
@@ -54,6 +55,10 @@ services:
     environment:
       - NODE_ENV=production
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dashy.rule=Host(`dashy.lab`)"
+      - "traefik.http.routers.dashy.entrypoints=web"
 
 networks:
   default:
