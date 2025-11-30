@@ -17,8 +17,8 @@ services:
       - IPV6_MODE=false
       - UPDATE_TRACKERS=true
     volumes:
-      - /home/daniel/daniel-homelab-core/config/downloader/aria2:/config
-      - /home/daniel/daniel-homelab-core/data/downloads:/downloads
+      - /home/daniel/daniel-homelab/config/downloader/aria2:/config
+      - /home/daniel/daniel-homelab/data/downloads:/downloads
 
   ariang:
     image: p3terx/ariang
@@ -46,8 +46,8 @@ services:
       - 6881:6881       # Torrent TCP
       - 6881:6881/udp   # Torrent UDP
     volumes:
-      - /home/daniel/daniel-homelab-core/config/downloader/qbittorrent:/config
-      - /home/daniel/daniel-homelab-core/data/downloads:/downloads
+      - /home/daniel/daniel-homelab/config/downloader/qbittorrent:/config
+      - /home/daniel/daniel-homelab/data/downloads:/downloads
 
   unpackerr:
     image: ghcr.io/hotio/unpackerr:latest
@@ -69,8 +69,8 @@ services:
 
     volumes:
       # Monta tu carpeta real de descargas en el contenedor como /downloads
-      - /home/daniel/daniel-homelab-core/data/downloads:/downloads
+      - /home/daniel/daniel-homelab/data/downloads:/downloads
       # Volumen para que unpackerr guarde su configuración interna y logs
-      - /home/daniel/daniel-homelab-core/config/downloader/unpackerr:/config
+      - /home/daniel/daniel-homelab/config/downloader/unpackerr:/config
   
     restart: unless-stopped
