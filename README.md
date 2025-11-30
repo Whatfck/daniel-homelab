@@ -16,7 +16,6 @@ Este proyecto configura un home server utilizando Docker Compose, con servicios 
     - `unpackerr/`: Configuración de Unpackerr (desempaquetador automático).
   - **`infra/`**: Servicios de infraestructura.
     - `arcane/`: Configuración de Arcane.
-    - `caddy/`: Configuración de Caddy (reverse proxy).
     - `dashy/`: Configuración de Dashy (dashboard personalizable).
     - `filebrowser/`: Configuración de Filebrowser para infraestructura.
   - **`management/`**: Servicios de gestión.
@@ -36,7 +35,7 @@ Este proyecto configura un home server utilizando Docker Compose, con servicios 
 ## Servicios Incluidos
 
 - **Descargadores**: Aria2, qBittorrent y Unpackerr para automatizar descargas y desempaquetado.
-- **Infraestructura**: Dashy para dashboard, Filebrowser para navegación de archivos, Arcane para gestión de stacks, y Caddy como reverse proxy.
+- **Infraestructura**: Dashy para dashboard, Filebrowser para navegación de archivos, y Arcane para gestión de stacks.
 - **Gestión**: Filebrowser para administración de archivos.
 - **Medios**: Jellyfin para streaming de películas y series, con metadata extensa.
 
