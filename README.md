@@ -27,6 +27,7 @@ Este proyecto configura un home server utilizando Docker Compose, con servicios 
       - `plugins/`: Plugins adicionales.
       - `root/`: Raíz de medios con carpetas para Películas y Series.
 - **`stacks/`**: Docker Compose separados por categoría para despliegues modulares.
+  - `dev/docker-compose.yml`: Stack de desarrollo con Code Server.
   - `downloader/docker-compose.yml`
   - `infra/docker-compose.yml`
   - `management/docker-compose.yml`
