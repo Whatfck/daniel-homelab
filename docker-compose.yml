@@ -1,6 +1,4 @@
 services:
-
-
   arcane:
     image: ghcr.io/getarcaneapp/arcane:latest
     container_name: arcane
@@ -21,15 +19,29 @@ services:
     labels:
       - com.getarcaneapp.arcane.updater=false
   dashy:
-    image: lissy93/dashy:latest
-    container_name: dashy
-    ports:
-      - 8080:8080
-    volumes:
-      - /home/daniel/daniel-homelab/config/infra/dashy/user-data:/app/user-data
-    environment:
-      - NODE_ENV=production
-    restart: unless-stopped
+   image: lissy93/dashy:latest
+   container_name: dashy
+   ports:
+     - 8080:8080
+   volumes:
+     - /home/daniel/daniel-homelab/config/infra/dashy/user-data:/app/user-data
+   environment:
+     - NODE_ENV=production
+   restart: unless-stopped
+
+  caddy:
+   image: caddy:latest
+   container_name: caddy
+   restart: unless-stopped
+   ports:
+     - "80:80"
+     - "443:443"
+   volumes:
+     - /home/daniel/daniel-homelab/config/infra/caddy/Caddyfile:/etc/caddy/Caddyfile
+     - /home/daniel/daniel-homelab/config/infra/caddy/data:/data
+     - /home/daniel/daniel-homelab/config/infra/caddy/config:/config
+   networks:
+     - default
 
 networks:
   default:
