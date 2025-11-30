@@ -64,10 +64,11 @@ sections:
     items:
       - title: Code Server
         description: VS Code en el navegador para desarrollo remoto
-        icon: sh-code-server
-        url: http://lab:8443/
+        icon: sh-Visual-Studio-Code
+        url: https://code.tailbb818c.ts.net/ 
         id: 0_1000_code-server
 appConfig:
   theme: dashy-docs
-  layout: vertical
+  layout: Auto
   iconSize: large
+  language: es
