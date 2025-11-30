@@ -1,6 +1,6 @@
 # Caddyfile
 
-http://lab {
+lab.tailbb818c.ts.net {
     # Reverse proxy for arcane at /arcane/
     route /arcane/* {
         uri strip_prefix /arcane

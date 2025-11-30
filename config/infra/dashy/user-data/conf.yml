@@ -27,7 +27,7 @@ sections:
       - title: Arcane
         description: Arcane
         icon: sh-Arcane
-        url: http://lab/arcane/
+        url: https://lab.tailbb818c.ts.net/arcane/
         id: 0_861_arcane
       - title: File Browser
         description: File Browser
