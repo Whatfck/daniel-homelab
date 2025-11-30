@@ -64,7 +64,7 @@ sections:
       - title: Traefik
         description: Reverse Proxy
         icon: sh-traefik
-        url: http://lab:8081/
+        url: http://lab:8080/
         id: 0_1000_traefik
 appConfig:
   theme: dashy-docs
