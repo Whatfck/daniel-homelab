@@ -52,20 +52,6 @@ sections:
         icon: sh-AriaNg
         url: http://lab:6880/
         id: 1_826_ariang
-  - name: Red
-    icon: fa fa-network-wired
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Traefik
-        description: Reverse Proxy
-        icon: sh-traefik
-        url: http://lab:8081/
-        id: 0_1000_traefik
 appConfig:
   theme: dashy-docs
   layout: vertical

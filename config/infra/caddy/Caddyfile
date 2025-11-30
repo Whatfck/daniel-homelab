@@ -1,0 +1,16 @@
+# Caddyfile
+
+# Reverse proxy for arcane
+arcane.lab {
+    reverse_proxy arcane:3552
+}
+
+# Reverse proxy for dashy
+dashy.lab {
+    reverse_proxy dashy:8080
+}
+
+# Default catch-all
+* {
+    respond "Hello from Caddy!" 200
+}
