@@ -3,20 +3,24 @@ services:
     image: traefik:v3.4
     container_name: traefik
     restart: unless-stopped
-    privileged: true
+    security_opt:
+      - no-new-privileges:true
     ports:
       - "80:80"
       - "443:443"
-      - "8081:8080"
+      - "8080:8080"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
+      - /var/run/docker.sock:/var/run/docker.sock:ro
       - /home/daniel/daniel-homelab/config/infra/traefik:/etc/traefik
     command:
-      - "--api.insecure=true"
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
-      - "--entrypoints.web.address=:80"
-      - "--entrypoints.websecure.address=:443"
+      - "--providers.docker.network=homelab-net"
+      - "--entryPoints.web.address=:80"
+      - "--entryPoints.websecure.address=:443"
+      - "--api=true"
+      - "--api.insecure=true"
+      - "--api.dashboard=true"
     networks:
       - default
 
