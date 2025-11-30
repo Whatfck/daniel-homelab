@@ -24,11 +24,6 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Arcane
-        description: Arcane
-        icon: sh-Arcane
-        url: https://lab.tailbb818c.ts.net/arcane/
-        id: 0_861_arcane
       - title: File Browser
         description: File Browser
         icon: sh-File-Browser
