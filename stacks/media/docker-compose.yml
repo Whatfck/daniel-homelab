@@ -1,0 +1,18 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    ports:
+      - 8096:8096
+      - 8920:8920
+    volumes:
+      - /home/daniel/daniel-homelab/config/media/jellyfin:/config
+      - /home/daniel/daniel-homelab-core/data/media/movies:/media/movies
+      - /home/daniel/daniel-homelab-core/data/media/series:/media/series
+      - /home/daniel/daniel-homelab-core/data/media/music:/media/music
+    environment:
+      - TZ=America/Bogota
+    restart: unless-stopped
+networks:
+  default:
+    name: homelab-net

@@ -1,0 +1,57 @@
+pageInfo:
+  title: Home Lab
+sections:
+  - name: Section 1 - Getting Started
+    items:
+      - title: GitHub
+        description: Source code and documentation on GitHub
+        icon: fab fa-github
+        url: https://github.com/Lissy93/dashy
+        id: 0_2396_github
+      - title: Issues
+        description: View currently open issues, or raise a new one
+        icon: fas fa-bug
+        url: https://github.com/Lissy93/dashy/issues
+        id: 1_2396_issues
+      - title: Demo
+        description: A live demo
+        icon: far fa-rocket
+        url: https://dashy-demo-1.netlify.app
+        id: 2_2396_demo
+  - name: Section 2 - Local Services
+    items:
+      - title: Firewall
+        icon: favicon
+        url: http://192.168.1.1/
+        id: 0_2275_firewall
+      - title: Game Server
+        icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
+        url: http://192.168.130.1/
+        id: 1_2275_gameserver
+  - name: Multimedia
+    icon: fa fa-closed-captioning
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jellyfin
+        description: Jellyfin
+        icon: sh-jellyfin
+        url: http://lab:8096/
+        id: 0_1035_jellyfin
+  - name: Gestión
+    icon: fa fa-gears
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+appConfig:
+  theme: dashy-docs
+  layout: vertical
+  iconSize: large
