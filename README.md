@@ -47,6 +47,13 @@ Este proyecto configura un home server utilizando Docker Compose, con servicios 
 3. Ejecuta `docker-compose up -d` en el directorio raíz para iniciar todos los servicios.
 4. Para despliegues modulares, la ejecución de stacks se hace a través de arcane. Navega a `stacks/` y utiliza arcane para gestionar los subdirectorios correspondientes.
 
+## Exposición de Servicios con Tailscale Serve
+
+Tailscale Serve permite exponer servicios con HTTPS usando subdominios. Crea los servicios en la consola de administrador web de Tailscale primero.
+
+- Para Dashy: `tailscale serve --service=svc:dashy --https=443 http://localhost:8080` (accesible en https://dashy.tailbb818c.ts.net/)
+- Para Arcane: `tailscale serve --service=svc:arcane --https=443 http://localhost:3552` (accesible en https://arcane.tailbb818c.ts.net/)
+
 ## Notas
 
 - Este es un backup de la configuración base; ajusta variables de entorno en `stacks/.env.global` si es necesario.
