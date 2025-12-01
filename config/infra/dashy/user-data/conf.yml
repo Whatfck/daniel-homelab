@@ -27,7 +27,7 @@ sections:
       - title: Arcane
         description: Interfaz web para gestión de stacks Docker
         icon: sh-Arcane
-        url: https://arcane.tailbb818c.ts.net/
+        url: http://lab:3552/
         id: 0_861_arcane
       - title: File Browser
         description: Explorador de archivos web con gestión de archivos
@@ -53,20 +53,6 @@ sections:
         icon: sh-aria2
         url: http://lab:6880/
         id: 1_826_ariang
-  - name: Desarrollo
-    icon: fa fa-code
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Code Server
-        description: VS Code en el navegador para desarrollo remoto
-        icon: sh-Visual-Studio-Code
-        url: https://code.tailbb818c.ts.net/ 
-        id: 0_1000_code-server
 appConfig:
   theme: dashy-docs
   layout: Auto
