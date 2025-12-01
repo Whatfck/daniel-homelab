@@ -50,27 +50,22 @@ services:
       - /home/daniel/daniel-homelab/data/downloads:/downloads
 
   unpackerr:
-    image: ghcr.io/hotio/unpackerr:latest
-    container_name: unpackerr_simple
-    environment:
-      # Todas estas lineas deben estar al mismo nivel de indentación y con guion
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Bogota
-      
-      # Solo monitorea la carpeta de descargas, sin integración 'arr'
-      - UN_PATH="/downloads"
-      
-      # Elimina los archivos comprimidos después de la extracción exitosa
-      - UN_DELETE_ORIGINAL="true"
-      
-      # Lista de contraseñas comunes (sepradas por coma)
-      - UN_PASSWORDS="zonaleros,www.my-site.com,mysite,password,12345,etc"
-
-    volumes:
-      # Monta tu carpeta real de descargas en el contenedor como /downloads
-      - /home/daniel/daniel-homelab/data/downloads:/downloads
-      # Volumen para que unpackerr guarde su configuración interna y logs
-      - /home/daniel/daniel-homelab/config/downloader/unpackerr:/config
-  
-    restart: unless-stopped
+   image: ghcr.io/hotio/unpackerr:latest
+   container_name: unpackerr_simple
+   environment:
+     # Todas estas lineas deben estar al mismo nivel de indentación y con guion
+     - PUID=1000
+     - PGID=1000
+     - TZ=America/Bogota
+     # Solo monitorea la carpeta de descargas, sin integración 'arr'
+     - UN_FOLDER_0_PATH="/downloads"
+     # Elimina los archivos comprimidos después de la extracción exitosa
+     - UN_FOLDER_0_DELETE_ORIGINAL=true
+     # Lista de contraseñas comunes (sepradas por coma)
+     - UN_PASSWORDS="zonaleros,www.my-site.com,mysite,password,12345,etc"
+   volumes:
+     # Monta tu carpeta real de descargas en el contenedor como /downloads
+     - /home/daniel/daniel-homelab/data/downloads:/downloads
+     # Volumen para que unpackerr guarde su configuración interna y logs
+     - /home/daniel/daniel-homelab/config/downloader/unpackerr:/config
+   restart: unless-stopped
