@@ -27,7 +27,7 @@ sections:
       - title: Arcane
         description: Interfaz web para gestión de stacks Docker
         icon: sh-Arcane
-        url: http://lab:3552/
+        url: https://arcane.tailbb818c.ts.net
         id: 0_861_arcane
       - title: File Browser
         description: Explorador de archivos web con gestión de archivos
