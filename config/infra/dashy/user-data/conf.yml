@@ -84,6 +84,33 @@ sections:
         url: https://aria-ng.tailbb818c.ts.net/
         statusCheckUrl: http://ariang:6880
         id: 1_909_ariang
+  - name: Automatización y Hogar
+    icon: fa fa-robot
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: n8n
+        description: Workflow automation para medios y más
+        icon: sh-n8n
+        url: https://n8n.tailbb818c.ts.net/
+        statusCheckUrl: http://n8n:5678
+        id: 0_2022_n8n
+      - title: AdGuard Home
+        description: Bloqueo de publicidad y gestión DNS
+        icon: sh-adguard-home
+        url: https://adguard.tailbb818c.ts.net/
+        statusCheckUrl: http://adguardhome:3000
+        id: 1_2022_adguard
+      - title: Home Assistant
+        description: Cerebro de domótica e IoT
+        icon: sh-home-assistant
+        url: https://home-assistant.tailbb818c.ts.net/
+        statusCheckUrl: http://100.69.9.109:8123
+        id: 2_2022_homeassistant
   - name: Desarrollo
     displayData:
       sortBy: default

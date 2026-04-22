@@ -34,3 +34,18 @@ config/management/prometheus/data/
 
 # --- Uptime Kuma (eliminado del stack) ---
 config/management/uptime-kuma/
+
+# --- n8n y Automatización ---
+config/automation/n8n/*.log
+config/automation/n8n/*.journal
+config/automation/postgres/
+
+# --- Home Assistant ---
+config/home/homeassistant/home-assistant_v2.db*
+config/home/homeassistant/home-assistant.log*
+config/home/homeassistant/tts/
+config/home/homeassistant/deps/
+config/home/homeassistant/.storage/
+
+# --- AdGuard Home ---
+config/home/adguard/work/
