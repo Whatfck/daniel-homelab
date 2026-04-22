@@ -51,26 +51,6 @@ services:
       - ../../config/downloader/qbittorrent:/config
       - ../../data/downloads:/downloads
 
-  unpackerr:
-    image: ghcr.io/hotio/unpackerr:latest
-    container_name: unpackerr_simple
-    environment:
-      # Todas estas lineas deben estar al mismo nivel de indentación y con guion
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Bogota
-      # Solo monitorea la carpeta de descargas, sin integración 'arr'
-      - UN_FOLDER_0_PATH="/downloads"
-      # Elimina los archivos comprimidos después de la extracción exitosa
-      - UN_FOLDER_0_DELETE_ORIGINAL=true
-      # Lista de contraseñas comunes (sepradas por coma)
-      - UN_PASSWORDS=${UNPACKERR_PASSWORDS}
-    volumes:
-      # Monta tu carpeta real de descargas en el contenedor como /downloads
-      - ../../data/downloads:/downloads
-      # Volumen para que unpackerr guarde su configuración interna y logs
-      - ../../config/downloader/unpackerr:/config
-    restart: unless-stopped
 
 networks:
   default:

@@ -44,7 +44,17 @@ daniel-homelab/
 |---|---|---|
 | [qBittorrent](https://www.qbittorrent.org) | `8085` | Cliente torrent |
 | [Aria2](https://aria2.github.io) + AriaNG | `6800` / `6880` | Gestor de descargas + UI web |
-| [Unpackerr](https://github.com/Unpackerr/unpackerr) | — | Extracción automática de archivos comprimidos |
+
+### 🤖 Automatización (`stacks/automation`)
+| Servicio | Puerto | Descripción |
+|---|---|---|
+| [n8n](https://n8n.io) | `5678` | Workflow automation para medios y más |
+
+### 🏠 Hogar (`stacks/home`)
+| Servicio | Puerto | Descripción |
+|---|---|---|
+| [AdGuard Home](https://adguard.com/adguard-home.html) | `3001`/`8000` | DNS Sinkhole y bloqueo de publicidad |
+| [Home Assistant](https://www.home-assistant.io) | `8123` | Plataforma de domótica (Network Host) |
 
 ### 📊 Gestión y Observabilidad (`stacks/management`)
 | Servicio | Puerto | Descripción |
@@ -125,6 +135,9 @@ sudo tailscale serve --service=svc:<nombre> --https=443 http://localhost:<puerto
 |---|---|
 | Dashy | `sudo tailscale serve --service=svc:dashy --https=443 http://localhost:8080` |
 | Arcane | `sudo tailscale serve --service=svc:arcane --https=443 http://localhost:3552` |
+| n8n | `sudo tailscale serve --service=svc:n8n --https=443 http://localhost:5678` |
+| AdGuard Home | `sudo tailscale serve --service=svc:adguard --https=443 http://localhost:8000` |
+| Home Assistant | `sudo tailscale serve --service=svc:home-assistant --https=443 http://localhost:8123` |
 | Grafana | `sudo tailscale serve --service=svc:grafana --https=443 http://localhost:3000` |
 | Filebrowser | `sudo tailscale serve --service=svc:file-browser --https=443 http://localhost:8090` |
 | Jellyfin | `sudo tailscale serve --service=svc:jellyfin --https=443 http://localhost:8096` |
