@@ -1,2 +1,36 @@
-# Ignorar todo el contenido pesado de datos
+# ==========================================
+# Daniel Homelab — .gitignore
+# ==========================================
+
+# --- Datos pesados (media, descargas) ---
 data/
+
+# --- Secretos y variables de entorno ---
+**/.env
+**/.env.local
+stacks/.env.global
+
+# --- Bases de datos de runtime (binarias, cambian constantemente) ---
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.mmdb
+
+# --- Logs y archivos temporales ---
+**/logs/
+**/*.log
+
+# --- Estado interno de qBittorrent ---
+config/downloader/qbittorrent/qBittorrent/BT_backup/
+config/downloader/qbittorrent/qBittorrent/GeoDB/
+
+# --- Datos de runtime de Grafana/Prometheus (generados automáticamente) ---
+config/management/grafana/csv/
+config/management/grafana/pdf/
+config/management/grafana/png/
+config/management/grafana/plugins/
+config/management/grafana/unified-search/
+config/management/prometheus/data/
+
+# --- Uptime Kuma (eliminado del stack) ---
+config/management/uptime-kuma/

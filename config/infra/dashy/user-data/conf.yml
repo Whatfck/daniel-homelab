@@ -1,6 +1,26 @@
 pageInfo:
-  title: Home Lab
+  title: Daniel's Lab
+  description: dashboard
+  navLinks: []
 sections:
+  - name: Hora local
+    icon: fa fa-clock
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    widgets:
+      - type: clock
+        options:
+          timeZone: America/Bogota
+          format: es-CO
+          hideDate: false
+          customCityName: Pasto
+          hideSeconds: true
+          use12Hour: true
+        id: 0_949_clock
   - name: Multimedia
     icon: fa fa-film
     displayData:
@@ -13,7 +33,8 @@ sections:
       - title: Jellyfin
         description: Servidor de medios para streaming de películas y series
         icon: sh-jellyfin
-        url: http://lab:8096/
+        url: https://jellyfin.tailbb818c.ts.net/
+        statusCheckUrl: http://jellyfin:8096
         id: 0_1035_jellyfin
   - name: Gestión
     icon: fa fa-cogs
@@ -28,12 +49,20 @@ sections:
         description: Interfaz web para gestión de stacks Docker
         icon: sh-Arcane
         url: https://arcane.tailbb818c.ts.net
+        statusCheckUrl: http://arcane:3552
         id: 0_861_arcane
       - title: File Browser
         description: Explorador de archivos web con gestión de archivos
         icon: sh-File-Browser
-        url: http://lab:8090/
+        url: https://file-browser.tailbb818c.ts.net/
+        statusCheckUrl: http://filebrowser:8080
         id: 1_861_filebrowser
+      - title: Grafana
+        description: Dashboards y métricas del sistema en tiempo real
+        icon: sh-grafana
+        url: https://grafana.tailbb818c.ts.net/
+        statusCheckUrl: http://grafana:3000
+        id: 3_861_grafana
   - name: Descargas
     icon: fa fa-download
     displayData:
@@ -46,15 +75,119 @@ sections:
       - title: qBittorrent
         description: Cliente torrent para descargas P2P
         icon: sh-qBittorrent
-        url: http://lab:8085/
-        id: 0_826_qbittorrent
+        url: https://q-bittorrent.tailbb818c.ts.net/
+        statusCheckUrl: http://qbittorrent:8085
+        id: 0_909_qbittorrent
       - title: AriaNg
         description: Interfaz web para Aria2, gestor de descargas
         icon: sh-aria2
-        url: http://lab:6880/
-        id: 1_826_ariang
+        url: https://aria-ng.tailbb818c.ts.net/
+        statusCheckUrl: http://ariang:6880
+        id: 1_909_ariang
+  - name: Desarrollo
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Github
+        description: ' Mi Perfil de Github'
+        icon: sh-github
+        url: https://github.com/Whatfck
+        id: 0_1047_github
+        statusCheck: false
+      - title: Repo Servidor
+        description: Repositorio servidor en Github
+        icon: sh-github
+        url: https://github.com/Whatfck/daniel-homelab
+        id: 1_1047_reposervidor
+        statusCheck: false
 appConfig:
-  theme: dashy-docs
-  layout: Auto
-  iconSize: large
+  theme: default
+  layout: auto
+  iconSize: medium
   language: es
+  statusCheck: true
+  statusCheckInterval: 20
+  statusCheckAllowInsecure: true
+  externalStyleSheet: 'https://fonts.googleapis.com/css2?family=Farsan&display=swap'
+  customColors:
+    default:
+      primary: '#bb86fc'
+      background: '#121212'
+      background-darker: '#1e1e1e'
+  customCss: |
+    :root {
+      --curve-factor: 12px;
+      --curve-factor-navbar: 20px;
+      --item-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      --item-hover-shadow: 0 8px 16px rgba(187, 134, 252, 0.3);
+      --item-icon-transform: drop-shadow(2px 2px 4px rgba(0,0,0,0.3)) saturate(1.2);
+      --item-icon-transform-hover: drop-shadow(4px 4px 8px rgba(187, 134, 252, 0.4)) saturate(1.5) scale(1.05);
+    }
+
+    /* Global Font and Texture */
+    body, html, #app {
+      font-family: 'Farsan', cursive !important;
+      background-color: #121212 !important;
+      background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(187, 134, 252, 0.03) 35px, rgba(187, 134, 252, 0.03) 70px) !important;
+      background-attachment: fixed !important;
+      min-height: 100vh;
+    }
+
+    /* Header Styling */
+    .home-heading {
+      background: linear-gradient(135deg, #bb86fc 0%, #3700b3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 700;
+      font-size: 3.2rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .home-heading::before {
+      content: '⚡';
+      -webkit-text-fill-color: initial; /* Para que el icono tenga su color original o el definido abajo */
+      color: #bb86fc;
+      font-size: 3rem;
+      filter: drop-shadow(0 0 10px rgba(187, 134, 252, 0.6));
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+    
+    .home-sub-heading {
+      opacity: 0.7;
+      letter-spacing: 3px;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    
+    /* Footer Styling */
+    footer {
+      background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.3), rgba(0,0,0,0.1));
+      border-top: 1px solid rgba(187, 134, 252, 0.2);
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+    }
+    
+    footer::before {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 2px;
+      background: linear-gradient(to right, transparent, #bb86fc, transparent);
+      margin: 0 auto 1rem;
+    }
+

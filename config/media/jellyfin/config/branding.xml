@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BrandingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LoginDisclaimer />
+  <CustomCss>/* Narrow the login form */
+#loginPage .readOnlyContent,
+#loginPage form {
+  max-width: 22em;
+}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {
+  display: none;
+}
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  margin-top: 50px;
+}
+
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {
+  display: none;
+}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+  display: none;
+}
+
+
+/* Make watched icon dark and transparent */
+.playedIndicator {
+  background: #00000058 !important;
+}
+
+/* Transparent Top Menu */
+
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Adjust both "size-adjust" and "size" to modify size */
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
+}
+.pageTitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.emby-tab-button {
+  padding: 1.75em 1.7em;
+}
+
+/* Hide seccion */
+.headerCastButton {
+  display: none;
+}
+.headerSyncButton {
+  display: none;
+}
+
+/* Fondo personalizado */
+.backgroundContainer {
+  background-image: url("https://i.imgur.com/SCGYETm.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+}
+
+/* Tintado negro */
+.backgroundContainer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  pointer-events: none;
+}
+
+/* Ocultar selectores de Video, Audio y Subtítulos */
+.selectVideo,
+.selectAudio,
+.selectSubtitles {
+  display: none !important;
+}
+
+/* Ocultar también las etiquetas (Video / Audio / Subtítulos) */
+.selectLabel {
+  display: none !important;
+}
+
+/* Ocultar contenedores para evitar espacios vacíos */
+.trackSelectionFieldContainer {
+  display: none !important;
+}</CustomCss>
+  <SplashscreenEnabled>true</SplashscreenEnabled>
+  <SplashscreenLocation>/config/data/splashscreen-upload.jpg</SplashscreenLocation>
+</BrandingOptions>

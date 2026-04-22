@@ -17,8 +17,8 @@ services:
       - IPV6_MODE=false
       - UPDATE_TRACKERS=true
     volumes:
-      - /home/daniel/daniel-homelab/config/downloader/aria2:/config
-      - /home/daniel/daniel-homelab/data/downloads:/downloads
+      - ../../config/downloader/aria2:/config
+      - ../../data/downloads:/downloads
 
   ariang:
     image: p3terx/ariang
@@ -42,30 +42,35 @@ services:
       - TZ=America/Bogota
       - WEBUI_PORT=8085
     ports:
-      - 8085:8085       # WebUI
-      - 6881:6881       # Torrent TCP
-      - 6881:6881/udp   # Torrent UDP
+      - 8085:8085 # WebUI
+      - 6881:6881 # Torrent TCP
+      - 6881:6881/udp # Torrent UDP
     volumes:
-      - /home/daniel/daniel-homelab/config/downloader/qbittorrent:/config
-      - /home/daniel/daniel-homelab/data/downloads:/downloads
+      - ../../config/downloader/qbittorrent:/config
+      - ../../data/downloads:/downloads
 
   unpackerr:
-   image: ghcr.io/hotio/unpackerr:latest
-   container_name: unpackerr_simple
-   environment:
-     # Todas estas lineas deben estar al mismo nivel de indentación y con guion
-     - PUID=1000
-     - PGID=1000
-     - TZ=America/Bogota
-     # Solo monitorea la carpeta de descargas, sin integración 'arr'
-     - UN_FOLDER_0_PATH="/downloads"
-     # Elimina los archivos comprimidos después de la extracción exitosa
-     - UN_FOLDER_0_DELETE_ORIGINAL=true
-     # Lista de contraseñas comunes (sepradas por coma)
-     - UN_PASSWORDS="REMOVED_SECRET"
-   volumes:
-     # Monta tu carpeta real de descargas en el contenedor como /downloads
-     - /home/daniel/daniel-homelab/data/downloads:/downloads
-     # Volumen para que unpackerr guarde su configuración interna y logs
-     - /home/daniel/daniel-homelab/config/downloader/unpackerr:/config
-   restart: unless-stopped
+    image: ghcr.io/hotio/unpackerr:latest
+    container_name: unpackerr_simple
+    environment:
+      # Todas estas lineas deben estar al mismo nivel de indentación y con guion
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Bogota
+      # Solo monitorea la carpeta de descargas, sin integración 'arr'
+      - UN_FOLDER_0_PATH="/downloads"
+      # Elimina los archivos comprimidos después de la extracción exitosa
+      - UN_FOLDER_0_DELETE_ORIGINAL=true
+      # Lista de contraseñas comunes (sepradas por coma)
+      - UN_PASSWORDS="REMOVED_SECRET"
+    volumes:
+      # Monta tu carpeta real de descargas en el contenedor como /downloads
+      - ../../data/downloads:/downloads
+      # Volumen para que unpackerr guarde su configuración interna y logs
+      - ../../config/downloader/unpackerr:/config
+    restart: unless-stopped
+
+networks:
+  default:
+    name: homelab-net
+    external: true

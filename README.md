@@ -4,11 +4,11 @@ Este repositorio contiene la configuración base de mi home server, organizada c
 
 ## Descripción General
 
-Este proyecto configura un home server utilizando Docker Compose, con servicios para descarga de archivos, infraestructura, gestión de archivos y servidor de medios. Está diseñado para ser desplegado en un servidor Linux, específicamente en el directorio `/home/daniel/daniel-homelab`.
+Este proyecto configura un home server utilizando Docker Compose, con servicios para descarga de archivos, infraestructura, gestión de archivos, servidor de medios y monitorización. Está diseñado para ser desplegado en un servidor Linux, específicamente en el directorio `/home/daniel/daniel-homelab`.
 
 ## Estructura del Proyecto
 
-- **`docker-compose.yml`**: Archivo principal de Docker Compose que orquesta todos los servicios del servidor.
+- **`stacks/`**: Composes de Docker separados por categoría para despliegues modulares (gestionados con Arcane).
 - **`config/`**: Directorio con configuraciones específicas de cada servicio.
   - **`downloader/`**: Configuraciones para herramientas de descarga.
     - `aria2/`: Configuración de Aria2 (descargador de archivos).
@@ -25,19 +25,19 @@ Este proyecto configura un home server utilizando Docker Compose, con servicios 
       - `jellyfin/`: Configuración específica de Jellyfin.
       - `plugins/`: Plugins adicionales.
       - `root/`: Raíz de medios con carpetas para Películas y Series.
-- **`stacks/`**: Docker Compose separados por categoría para despliegues modulares.
   - `downloader/docker-compose.yml`
   - `infra/docker-compose.yml`
   - `management/docker-compose.yml`
   - `media/docker-compose.yml`
-- **`.gitignore`**: Archivos ignorados por Git, incluyendo configuraciones sensibles.
+- **`stacks/.env.global`**: Variables de entorno y secretos compartidos entre todos los stacks. ⚠️ Ignorado por Git.
+- **`.gitignore`**: Archivos ignorados por Git, incluyendo datos y secretos.
 
 ## Servicios Incluidos
 
 - **Descargadores**: Aria2, qBittorrent y Unpackerr para automatizar descargas y desempaquetado.
-- **Infraestructura**: Dashy para dashboard, Filebrowser para navegación de archivos, y Arcane para gestión de stacks.
-- **Gestión**: Filebrowser para administración de archivos.
-- **Medios**: Jellyfin para streaming de películas y series, con metadata extensa.
+- **Infraestructura**: Dashy para dashboard y Arcane para gestión de stacks de Docker.
+- **Gestión**: Filebrowser para administración de archivos y Uptime Kuma para monitorización de servicios.
+- **Medios**: Jellyfin para streaming de películas, series y música.
 
 ## Despliegue
 
@@ -48,10 +48,11 @@ Este proyecto configura un home server utilizando Docker Compose, con servicios 
 
 ## Exposición de Servicios con Tailscale Serve
 
-Tailscale Serve permite exponer servicios con HTTPS usando subdominios. Crea los servicios en la consola de administrador web de Tailscale primero.
+Tailscale Serve permite exponer servicios con HTTPS usando subdominios de Tailscale, sin necesidad de IP pública ni dominio propio. Primero crea el servicio en la consola de admin de Tailscale (`login.tailscale.com/admin/services`) y luego ejecuta el comando `serve` con `sudo` en el host.
 
 - Para Dashy: `tailscale serve --service=svc:dashy --https=443 http://localhost:8080` (accesible en https://dashy.tailbb818c.ts.net/)
 - Para Arcane: `tailscale serve --service=svc:arcane --https=443 http://localhost:3552` (accesible en https://arcane.tailbb818c.ts.net/)
+- Para Uptime Kuma: `tailscale serve --service=svc:uptime-kuma --https=443 http://localhost:3001` (accesible en https://uptime-kuma.tailbb818c.ts.net/)
 
 ## Notas
 
