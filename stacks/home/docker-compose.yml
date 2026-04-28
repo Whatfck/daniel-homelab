@@ -3,10 +3,12 @@ services:
     image: adguard/adguardhome:latest
     container_name: adguardhome
     restart: unless-stopped
+    env_file:
+      - ../.env.global
     # Puertos para DNS vinculados a Tailscale para evitar conflictos
     ports:
-      - 100.69.9.109:53:53/tcp
-      - 100.69.9.109:53:53/udp
+      - ${TAILSCALE_IP}:53:53/tcp
+      - ${TAILSCALE_IP}:53:53/udp
       - 3001:3000/tcp # Instalación inicial
       - 8000:80/tcp   # Admin UI después de instalar
       - 444:443/tcp

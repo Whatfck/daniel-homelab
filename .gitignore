@@ -15,6 +15,9 @@ stacks/.env.global
 **/*.db-shm
 **/*.db-wal
 **/*.mmdb
+**/*.session
+*.lock
+**/*.lock
 
 # --- Logs y archivos temporales ---
 **/logs/
@@ -23,6 +26,8 @@ stacks/.env.global
 # --- Estado interno de qBittorrent ---
 config/downloader/qbittorrent/qBittorrent/BT_backup/
 config/downloader/qbittorrent/qBittorrent/GeoDB/
+config/downloader/qbittorrent/qBittorrent/qBittorrent.conf
+config/downloader/qbittorrent/qBittorrent/qBittorrent-data.conf
 
 # --- Datos de runtime de Grafana/Prometheus (generados automáticamente) ---
 config/management/grafana/csv/
@@ -46,6 +51,10 @@ config/home/homeassistant/home-assistant.log*
 config/home/homeassistant/tts/
 config/home/homeassistant/deps/
 config/home/homeassistant/.storage/
+config/home/homeassistant/secrets.yaml
 
 # --- AdGuard Home ---
 config/home/adguard/work/
+
+# --- Seguridad (Vaultwarden) ---
+config/security/

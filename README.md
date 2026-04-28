@@ -15,6 +15,9 @@ daniel-homelab/
 │   ├── media/            # Servidor multimedia
 │   ├── downloader/       # Clientes de descarga
 │   ├── management/       # Observabilidad + gestión de archivos
+│   ├── automation/       # n8n y automatización
+│   ├── home/             # AdGuard Home y Home Assistant
+│   ├── security/         # Vaultwarden (Bitwarden)
 │   └── .env.global       # Secretos globales ⚠️ ignorado por Git
 ├── config/               # Configuración persistente de cada servicio
 │   ├── infra/
@@ -50,10 +53,15 @@ daniel-homelab/
 |---|---|---|
 | [n8n](https://n8n.io) | `5678` | Workflow automation para medios y más |
 
+### 🛡️ Seguridad (`stacks/security`)
+| Servicio | Puerto | Descripción |
+|---|---|---|
+| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | `8081` | Gestor de contraseñas privado (Bitwarden) |
+
 ### 🏠 Hogar (`stacks/home`)
 | Servicio | Puerto | Descripción |
 |---|---|---|
-| [AdGuard Home](https://adguard.com/adguard-home.html) | `3001`/`8000` | DNS Sinkhole y bloqueo de publicidad |
+| [AdGuard Home](https://adguard.com/adguard-home.html) | `3001`/`8000` | DNS Sinkhole y bloqueo de publicidad (vía Tailscale IP) |
 | [Home Assistant](https://www.home-assistant.io) | `8123` | Plataforma de domótica (Network Host) |
 
 ### 📊 Gestión y Observabilidad (`stacks/management`)
@@ -98,6 +106,8 @@ TZ=America/Bogota
 ARCANE_ENCRYPTION_KEY=<genera con: openssl rand -hex 32>
 ARCANE_JWT_SECRET=<genera con: openssl rand -hex 32>
 GRAFANA_ADMIN_PASSWORD=<tu-contraseña>
+TAILSCALE_IP=<tu-ip-tailscale>
+VAULTWARDEN_ADMIN_TOKEN=<token-admin-seguro>
 ```
 
 **3. Levantar los stacks**
@@ -136,6 +146,7 @@ sudo tailscale serve --service=svc:<nombre> --https=443 http://localhost:<puerto
 | Dashy | `sudo tailscale serve --service=svc:dashy --https=443 http://localhost:8080` |
 | Arcane | `sudo tailscale serve --service=svc:arcane --https=443 http://localhost:3552` |
 | n8n | `sudo tailscale serve --service=svc:n8n --https=443 http://localhost:5678` |
+| Vaultwarden | `sudo tailscale serve --service=svc:vaultwarden --https=443 http://localhost:8081` |
 | AdGuard Home | `sudo tailscale serve --service=svc:adguard --https=443 http://localhost:8000` |
 | Home Assistant | `sudo tailscale serve --service=svc:home-assistant --https=443 http://localhost:8123` |
 | Grafana | `sudo tailscale serve --service=svc:grafana --https=443 http://localhost:3000` |
